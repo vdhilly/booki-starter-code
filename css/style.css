@@ -58,6 +58,27 @@ a {
   color: var(--main-bg-color);
 }
 
+/****** Header ***********/
+header {
+  display: flex;
+  height: 79px;
+  justify-content: space-between;
+}
+header .logo-booki {
+  margin: 25px 0px;
+}
+.menu-nav {
+  display: flex;
+  gap: 68px;
+}
+.menu-nav a {
+  padding-top: 10px;
+}
+.menu-nav a:hover {
+  border-top: 2px solid var(--main-color);
+  color: var(--main-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
