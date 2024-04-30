@@ -127,6 +127,34 @@ input[name="location"] {
   color: black;
   font-size: 18px;
 }
+#recherche-filter {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#recherche-filter span {
+  font-weight: 700;
+  font-size: 18px;
+}
+.filter-btn:hover {
+  background: var(--filter-bg-color);
+}
+.filter-btn {
+  color: black;
+  font-weight: 700;
+  background: white;
+  border: 2px solid var(--main-bg-color);
+  padding: 4px 19px;
+  border-radius: 25px;
+  height: 50px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.filter-btn i {
+  color: var(--main-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
