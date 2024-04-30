@@ -193,21 +193,23 @@ input[name="location"] {
 .hebergements h2 {
   font-size: 22px;
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 .hebergements-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 30px;
 }
 
 .hebergements-list .card {
-  width: 30%;
+  width: 29%;
 }
 .hebergements-list .card-txt {
   padding: 0px 15px;
 }
 .hebergements-list .card-txt > * {
-  margin: 8px;
+  margin: 8px auto;
 }
 .hebergements-list img {
   width: 100%;
@@ -215,6 +217,10 @@ input[name="location"] {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
+}
+.hebergements-show-more {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /****** Populaires ***********/
