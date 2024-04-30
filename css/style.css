@@ -153,6 +153,7 @@ input[name="location"] {
 }
 .filter-btn i {
   color: var(--main-color);
+  margin-right: 3px;
 }
 
 /****** Hebergements And Populaires ***********/
