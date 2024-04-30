@@ -201,9 +201,13 @@ input[name="location"] {
   gap: 30px;
   margin-bottom: 30px;
 }
-
+/* Question : Ecart à droite  */
+.hebergements-list a {
+  width: 30%;
+  justify-content: center;
+}
 .hebergements-list .card {
-  width: 29%;
+  width: 100%;
 }
 .hebergements-list .card-txt {
   padding: 0px 15px;
@@ -280,9 +284,15 @@ input[name="location"] {
   display: flex;
   gap: 30px;
 }
-.activites-cards-container .card {
-  padding: 0px;
+.activites-cards-container a {
   width: 25%;
+  padding: 0px;
+}
+.activites-cards-container .card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
 }
 .activites-cards-container .card img {
   width: 100%;
