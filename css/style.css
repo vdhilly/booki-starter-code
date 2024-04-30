@@ -268,6 +268,30 @@ input[name="location"] {
   margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+#activites-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.activites-cards-container {
+  display: flex;
+  gap: 30px;
+}
+.activites-cards-container .card {
+  padding: 0px;
+  width: 21%;
+}
+.activites-cards-container .card img {
+  width: 100%;
+  height: 380px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+.activites-cards-container .card-title {
+  margin: 20px 19px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
