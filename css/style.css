@@ -79,6 +79,54 @@ header .logo-booki {
   color: var(--main-color);
 }
 
+/* Recherche */
+.top-box * {
+  margin: 10px;
+}
+.top-box {
+  margin-bottom: 30px;
+}
+#search-location-form {
+  display: flex;
+  margin-bottom: 30px;
+}
+.mobile-search-btn {
+  display: none;
+  cursor: pointer;
+}
+input[name="location"] {
+  height: 50px;
+  border: 1px solid var(--main-bg-color);
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+.search-btn {
+  background: #0065fc;
+  border: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.search-location-btn {
+  background: var(--main-bg-color);
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+}
+.search-location-btn i {
+  color: black;
+  font-size: 18px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
