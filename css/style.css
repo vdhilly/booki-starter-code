@@ -190,6 +190,32 @@ input[name="location"] {
 .hebergements {
   width: 65%;
 }
+.hebergements h2 {
+  font-size: 22px;
+  margin-top: 0px;
+}
+.hebergements-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.hebergements-list .card {
+  width: 30%;
+}
+.hebergements-list .card-txt {
+  padding: 0px 15px;
+}
+.hebergements-list .card-txt > * {
+  margin: 8px;
+}
+.hebergements-list img {
+  width: 100%;
+  height: 115px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
 
 /****** Populaires ***********/
 .populaires {
