@@ -133,7 +133,7 @@ input[name="location"] {
   align-items: center;
   margin-bottom: 20px;
 }
-#recherche-filter span {
+#recherche-filter .filter-title {
   font-weight: 700;
   font-size: 18px;
 }
