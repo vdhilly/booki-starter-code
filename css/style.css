@@ -269,7 +269,9 @@ input[name="location"] {
 }
 
 /****** Activités ***********/
-
+.activites {
+  padding: 30px;
+}
 #activites-title {
   font-size: 22px;
   font-weight: 700;
@@ -280,7 +282,7 @@ input[name="location"] {
 }
 .activites-cards-container .card {
   padding: 0px;
-  width: 21%;
+  width: 25%;
 }
 .activites-cards-container .card img {
   width: 100%;
