@@ -14,6 +14,7 @@
 }
 
 body {
+  margin: 0px;
   display: flex;
   justify-content: center;
 }
@@ -195,13 +196,15 @@ input[name="location"] {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+/* TO DO REGLER ECART */
 .hebergements-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   margin-bottom: 30px;
+  justify-content: space-between;
 }
-/* Question : Ecart à droite  */
+
 .hebergements-list a {
   width: 30%;
   justify-content: center;
@@ -302,6 +305,26 @@ input[name="location"] {
 }
 .activites-cards-container .card-title {
   margin: 20px 19px;
+}
+/* Footer */
+footer {
+  display: flex;
+  background: var(--main-bg-color);
+  gap: 30px;
+}
+.footer-section {
+  width: 30%;
+  gap: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-section h2 {
+  margin: 0px;
+  font-size: 18px;
+}
+.footer-section a {
+  font-size: 16px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
