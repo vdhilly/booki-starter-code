@@ -190,23 +190,24 @@ input[name="location"] {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .hebergements h2 {
   font-size: 22px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  margin: 0px;
 }
 /* TO DO REGLER ECART */
 .hebergements-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-bottom: 30px;
   justify-content: space-between;
 }
 
 .hebergements-list a {
-  width: 30%;
+  width: 29%;
   justify-content: center;
 }
 .hebergements-list .card {
@@ -278,18 +279,18 @@ input[name="location"] {
 /****** Activités ***********/
 .activites {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 #activites-title {
   font-size: 22px;
   font-weight: 700;
+  margin: 0px;
 }
 .activites-cards-container {
   display: flex;
   gap: 30px;
-}
-.activites-cards-container a {
-  width: 25%;
-  padding: 0px;
 }
 .activites-cards-container .card {
   display: flex;
@@ -301,10 +302,16 @@ input[name="location"] {
   width: 100%;
   height: 380px;
   border-radius: 20px 20px 0px 0px;
-  object-fit: cover;
 }
 .activites-cards-container .card-title {
-  margin: 20px 19px;
+  padding: 20px 19px;
+  margin: 0px;
+}
+.activite-card {
+  width: 25%;
+  padding: 0px;
+  height: 439px;
+  display: flex;
 }
 /* Footer */
 footer {
@@ -361,6 +368,12 @@ footer {
 
   .populaires-cards .card-subtitle {
     font-size: 13px;
+  }
+  .activite-card {
+    height: 270px;
+  }
+  .activites-cards-container .card img {
+    height: 200px;
   }
 }
 
