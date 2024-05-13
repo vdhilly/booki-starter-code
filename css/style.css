@@ -372,6 +372,9 @@ footer {
   .activite-card {
     height: 270px;
   }
+  .activite-card .card-title {
+    height: 70px;
+  }
   .activites-cards-container .card img {
     height: 200px;
   }
