@@ -98,6 +98,8 @@ header .logo-booki {
 .mobile-search-btn {
   display: none;
   cursor: pointer;
+  position: relative;
+  left: -10px;
 }
 input[name="location"] {
   height: 50px;
@@ -202,7 +204,6 @@ input[name="location"] {
   font-size: 22px;
   margin: 0px;
 }
-/* TO DO REGLER ECART */
 .hebergements-list {
   display: flex;
   flex-wrap: wrap;
@@ -299,8 +300,6 @@ input[name="location"] {
   gap: 30px;
 }
 .activites-cards-container .card {
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 100%;
   padding: 0px;
 }
@@ -355,7 +354,6 @@ footer {
 
   .populaires {
     width: 100%;
-    margin-top: 50px;
   }
 
   .populaires-cards {
@@ -397,8 +395,6 @@ footer {
   .main-container {
     padding: 0px;
     gap: 30px;
-    display: flex;
-    flex-direction: column;
   }
   header {
     flex-direction: column;
@@ -424,6 +420,8 @@ footer {
   }
   .recherche-container {
     padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
   }
   #search-location-form input {
     font-size: 18px;
