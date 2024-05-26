@@ -346,6 +346,7 @@ footer {
 @media (max-width: 1024px) {
   .hebergements-and-populaires {
     flex-direction: column;
+    gap: 30px;
   }
 
   .hebergements {
