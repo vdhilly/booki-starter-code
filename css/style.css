@@ -66,6 +66,9 @@ header {
   height: 79px;
   justify-content: space-between;
 }
+header .booki-title {
+  display: none;
+}
 header .logo-booki {
   margin: 25px 0px;
   height: 19px;
