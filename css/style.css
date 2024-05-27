@@ -442,7 +442,10 @@ footer {
     height: 49px;
     box-shadow: 0px 4px 4px 0px #00000040;
   }
-
+  input[name="location"] {
+    text-align: unset;
+    padding: 20px;
+  }
   .mobile-search-btn i:before {
     color: white;
   }
